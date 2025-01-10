@@ -12,12 +12,12 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableJpaAuditing(auditorAwareRef = "auditAwareImpl")
 @OpenAPIDefinition(
         info = @Info(
-                title="Trial Microservice Application API Documentation",
-                description = "Aint no way im learning this shit",
+                title = "Trial Microservice Application API Documentation",
+                description = "blahblahBlah",
                 version = "v69",
                 contact = @Contact
                         (
-                                name="Guhan",
+                                name = "Guhan",
                                 email = "guhan@nahug.com",
                                 url = "guhan.com"
                         ),

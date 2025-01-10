@@ -1,4 +1,4 @@
-package com.bytes.loan;
+package com.bytes.Cards;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Contact;
@@ -29,10 +29,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
                         )
         )
 )
-public class LoanApplication {
+public class CardsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(LoanApplication.class, args);
+        SpringApplication.run(CardsApplication.class, args);
     }
 
 }
